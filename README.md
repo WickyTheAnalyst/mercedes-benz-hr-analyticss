@@ -1,4 +1,19 @@
 # Predicting Employee Attrition
+## Analyzing Employee Retention and Constructing a Machine Learning Model
+
+*A case study by Waqas Ahmad*
+## Overview
+
+Mercedes-Benz's HR department is on a mission to boost employee satisfaction by uncovering the core factors that could trigger an employee's decision to leave the company.
+
+## Goal
+
+The goal of this project is to analyze the data collected by the HR department and develop a robust predictive model that can accurately forecast an employee's likelihood of leaving the company.
+
+## Objective
+
+The objective of this project is to identify factors that play a role in employees choosing to leave the company and suggest a way forward.
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -8,6 +23,8 @@
 5. [Feature Engineering](#feature-engineering)
 6. [Conclusion and Recommendations](#conclusion-and-recommendations)
 7. [Next Steps](#next-steps)
+
+
 
 ## 1. Introduction <a name="introduction"></a>
 
@@ -20,6 +37,21 @@ Employee attrition, or the phenomenon of employees leaving a company, is a criti
 - **Model Building and Evaluation**: We constructed two types of machine learning models—Logistic Regression and Tree-Based Models (Decision Tree and Random Forest). These models were evaluated on various metrics to determine their effectiveness in predicting employee attrition.
 
 - **Feature Engineering**: We addressed concerns about data leakage and improved model robustness by excluding the 'satisfaction_level' feature, creating a new binary feature called 'overworked,' and dropping the 'average_monthly_hours' feature.
+## Project Stages
+
+### Stage 1: Import Data & Packages
+- Import necessary data and Python packages for analysis.
+
+### Stage 2: Data Exploration - EDA & Data Cleaning
+- Perform exploratory data analysis (EDA) and data cleaning to understand the dataset and prepare it for modeling.
+
+### Stage 3: Building Models
+- Explore two different approaches for building predictive models:
+  - Approach A: Regression Modeling
+  - Approach B: Tree-Based Modeling (Decision Tree & Random Forest)
+
+### Stage 4: Model Evaluation & Sharing Insights
+- Evaluate the models and share insights gained from them.
 
 ## 2. Data Preprocessing <a name="data-preprocessing"></a>
 
@@ -83,47 +115,8 @@ Moving forward, consider the following next steps:
 
 This project provides valuable insights into the factors affecting employee attrition and suggests actionable steps for enhancing the work environment and reducing attrition rates.
 
-
-# Mercedes Benz HR Analytics
-
-## Analyzing Employee Retention and Constructing a Machine Learning Model
-
-*A case study by Waqas Ahmad*
-
-## Overview
-
-Mercedes-Benz's HR department is on a mission to boost employee satisfaction by uncovering the core factors that could trigger an employee's decision to leave the company.
-
-## Goal
-
-The goal of this project is to analyze the data collected by the HR department and develop a robust predictive model that can accurately forecast an employee's likelihood of leaving the company.
-
-## Objective
-
-The objective of this project is to identify factors that play a role in employees choosing to leave the company and suggest a way forward.
-
-## Project Stages
-
-### Stage 1: Import Data & Packages
-- Import necessary data and Python packages for analysis.
-
-### Stage 2: Data Exploration - EDA & Data Cleaning
-- Perform exploratory data analysis (EDA) and data cleaning to understand the dataset and prepare it for modeling.
-
-### Stage 3: Building Models
-- Explore two different approaches for building predictive models:
-  - Approach A: Regression Modeling
-  - Approach B: Tree-Based Modeling (Decision Tree & Random Forest)
-
-### Stage 4: Model Evaluation & Sharing Insights
-- Evaluate the models and share insights gained from them.
-
-## Conclusion
-
-The models and feature importance extracted from them confirm a critical issue within the company—employee overwork. This insight highlights several areas where action can be taken to improve employee retention and well-being.
-
 ## Recommendations
-
+This project concludes that employee overwork is a significant issue requiring HR intervention. Recommendations include capping project assignments, recognizing and promoting tenured employees, ensuring fair workload and overtime compensation, clarifying policies and expectations, conducting cultural evaluations, and reviewing performance reward scaling. Future steps include evaluating data leakage from the last evaluation feature and exploring k-means clustering to analyze employee clusters.
 To retain employees and create a healthier work environment, consider the following recommendations for stakeholders:
 
 - Cap Project Assignments: Implement a limit on the number of projects employees can work on simultaneously to prevent excessive workload.
@@ -142,47 +135,15 @@ While addressing the identified issues, consider the following next steps:
 
 These actions and next steps aim to improve employee retention, foster a healthier work environment, and ensure data-driven decision-making in addressing workforce challenges.
 
-*Congratulations to me for completing this project. Good job, soldier!*
-
-
-Sure, here is the provided information formatted in Markdown for your GitHub README.md:
-
-```markdown
-# Mercedes-Benz HR Analytics
-
-Welcome to the Mercedes-Benz HR analytics project, aimed at predicting employee attrition and improving employee retention. This README provides an overview of the project's key aspects and findings.
-
-## Summary
-
-This project revolves around analyzing employee data from Mercedes-Benz to predict attrition and enhance retention strategies. The dataset contains information on 14,999 employees, including satisfaction levels, project involvement, monthly work hours, tenure, evaluation scores, salaries, departments, and attrition status. The project can be broken down into four stages: data import, data exploration, model development, and model evaluation.
-
-### Stages
-
-- **Data Import**: The project begins by importing the necessary data and Python libraries for analysis.
-- **Data Exploration**: This stage involves exploratory data analysis (EDA) and data cleaning. EDA includes descriptive statistics, data visualization, correlation analysis, and outlier detection. Data cleaning addresses missing values, categorical variable encoding, and numerical variable scaling.
-- **Model Building**: The project employs two different modeling approaches: logistic regression, decision tree, and random forest. Evaluation metrics used are accuracy, precision, recall, f1-score, and confusion matrices. Cross-validation and grid search are used for model optimization, with the random forest model proving to be the most effective, achieving 99% accuracy and a 98% f1-score.
-- **Key Findings**: The most significant factors contributing to employee attrition are the number of projects, average monthly hours, tenure, and last evaluation score. High workloads, long tenures, and low evaluation scores increase the likelihood of attrition. Satisfaction level also plays a role in attrition.
-
-### Mercedes-Benz HR Insights
-
-According to web search results:
-
+## Key Stats
 - Mercedes-Benz Group had **172,425** employees in **2021**, with **36%** women and **56%** white employees.
 - The company also employed **4,817** trainees and **9,531** employees in its mobility division.
 - The company's HR strategy focuses on three pillars: Re-Shape, Re-Skill, and Re-Charge, with an aim to be an attractive employer by fostering a culture of trust.
 
-## Conclusion and Recommendations
-
-This project concludes that employee overwork is a significant issue requiring HR intervention. Recommendations include capping project assignments, recognizing and promoting tenured employees, ensuring fair workload and overtime compensation, clarifying policies and expectations, conducting cultural evaluations, and reviewing performance reward scaling. Future steps include evaluating data leakage from the last evaluation feature and exploring k-means clustering to analyze employee clusters.
-
-We hope this summary provides a clear understanding of the project. If you have questions or requests, please feel free to reach out.
-
-Source:
+References:
 - [Key figures Human Resources - Mercedes-Benz Sustainability Report 2021](https://sustainabilityreport.mercedes-benz.com/2021/appendix/key-figures/key-figures-human-resources.html)
 - [HR work in the transformation - Mercedes-Benz Group Sustainability](https://sustainabilityreport.mercedes-benz.com/2022/social/people/hr-work-in-the-transformation.html)
 - [How Mercedes Benz UK uses workforce analytics in resourcing](https://www.haystalentsolutions.com/-/how-mercedes-benz-uk-uses-workforce-analytics-in-resourcing)
 - [Mercedes-Benz USA demographics and statistics - Zippia](https://www.zippia.com/mercedes-benz-usa-careers-31064/demographics/)
-```
 
-You can copy and paste this Markdown content into your README.md file on GitHub.
 
