@@ -97,13 +97,21 @@ Feature engineering aimed to enhance model performance and mitigate data leakage
 - The random forest model outperformed the decision tree model, especially in terms of AUC (94%).
 
 **Recommendations:**
-
+This project concludes that employee overwork is a significant issue requiring HR intervention. Recommendations include capping project assignments, recognizing and promoting tenured employees, ensuring fair workload and overtime compensation, clarifying policies and expectations, conducting cultural evaluations, and reviewing performance reward scaling. Future steps include evaluating data leakage from the last evaluation feature and exploring k-means clustering to analyze employee clusters.
 - Implement a cap on the number of projects employees can work on to prevent excessive workload.
 - Recognize and promote employees with at least four years of tenure.
 - Ensure fair compensation or incentives for employees working longer hours.
 - Communicate overtime pay policies and clarify workload and time-off expectations.
 - Conduct cultural evaluations and initiate improvements.
 - Review the evaluation score system for fairness.
+To retain employees and create a healthier work environment, consider the following recommendations for stakeholders:
+- Cap Project Assignments: Implement a limit on the number of projects employees can work on simultaneously to prevent excessive workload.
+- Tenure-Based Recognition: Recognize and promote employees who have been with the company for at least four years, and investigate the reasons behind the dissatisfaction of four-year tenured employees.
+- Fair Workload and Overtime: Ensure fair compensation or incentives for employees working longer hours, or reconsider workload expectations.
+- Communication and Policy Clarity: Inform employees about overtime pay policies, and clarify expectations regarding workload and time-off.
+- Cultural Evaluation: Conduct company-wide and team-specific discussions to understand and address the work culture, seeking improvements in various contexts.
+- Performance Reward Scaling: Review the evaluation score system to ensure that high scores are not reserved solely for employees working 200+ hours per month. Consider a proportionate scale for rewarding effort and contributions.
+
 
 ## 7. Next Steps <a name="next-steps"></a>
 
@@ -112,28 +120,8 @@ Moving forward, consider the following next steps:
 - Evaluate how model predictions change when the 'last_evaluation' feature is removed from the data to assess data leakage.
 - Explore the use of K-Means clustering analysis to analyze employee clusters.
 - Implement the recommended actions to address workforce challenges and improve employee retention.
-
-This project provides valuable insights into the factors affecting employee attrition and suggests actionable steps for enhancing the work environment and reducing attrition rates.
-
-## Recommendations
-This project concludes that employee overwork is a significant issue requiring HR intervention. Recommendations include capping project assignments, recognizing and promoting tenured employees, ensuring fair workload and overtime compensation, clarifying policies and expectations, conducting cultural evaluations, and reviewing performance reward scaling. Future steps include evaluating data leakage from the last evaluation feature and exploring k-means clustering to analyze employee clusters.
-To retain employees and create a healthier work environment, consider the following recommendations for stakeholders:
-
-- Cap Project Assignments: Implement a limit on the number of projects employees can work on simultaneously to prevent excessive workload.
-- Tenure-Based Recognition: Recognize and promote employees who have been with the company for at least four years, and investigate the reasons behind the dissatisfaction of four-year tenured employees.
-- Fair Workload and Overtime: Ensure fair compensation or incentives for employees working longer hours, or reconsider workload expectations.
-- Communication and Policy Clarity: Inform employees about overtime pay policies, and clarify expectations regarding workload and time-off.
-- Cultural Evaluation: Conduct company-wide and team-specific discussions to understand and address the work culture, seeking improvements in various contexts.
-- Performance Reward Scaling: Review the evaluation score system to ensure that high scores are not reserved solely for employees working 200+ hours per month. Consider a proportionate scale for rewarding effort and contributions.
-
-## Next Steps
-
-While addressing the identified issues, consider the following next steps:
-
 - Data Leakage Evaluation: Assess how predictions change when the 'last_evaluation' feature is removed from the data. Determine whether it's essential for predicting employee retention or whether other factors, such as performance or satisfaction scores, can be more informative.
 - K-Means Analysis: For future projects, explore the use of a K-Means clustering model on this data to analyze employee clusters. This analysis may yield valuable insights into employee groups and their characteristics.
-
-These actions and next steps aim to improve employee retention, foster a healthier work environment, and ensure data-driven decision-making in addressing workforce challenges.
 
 ## Key Stats
 - Mercedes-Benz Group had **172,425** employees in **2021**, with **36%** women and **56%** white employees.
