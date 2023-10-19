@@ -1,4 +1,4 @@
-# Predicting Employee Attrition
+# Mercedes Benz Hr Analytics
 #### *Analyzing Employee Retention and Constructing a Machine Learning Model*
 
 *A case study by Waqas Ahmad*
