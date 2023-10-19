@@ -1,5 +1,5 @@
 # Predicting Employee Attrition
-## Analyzing Employee Retention and Constructing a Machine Learning Model
+#### *Analyzing Employee Retention and Constructing a Machine Learning Model*
 
 *A case study by Waqas Ahmad*
 ## Overview
