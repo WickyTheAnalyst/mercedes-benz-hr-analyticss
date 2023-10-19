@@ -1,4 +1,4 @@
-# Mercedes Benz Hr Analytics
+# Mercedes Benz HR Analytics
 #### *Analyzing Employee Retention and Constructing a Machine Learning Model*
 
 *A case study by Waqas Ahmad*
